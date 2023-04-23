@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body class="bg-white m-0 p-0 object-contain bg-gradient-to-r from-orange-700">
+    <!-- nav bar-->
+    <div class=" bg-gray-100 flex flex-row space-x-[1050px] h-[75px] sticky top-0 z-50">
+        <img src="mainlogo.jpg" alt="collcom logo" class="w-[275px] h-[65px] mb-2 mt-2 ml-[20px]">
+        <nav>
+            <ul class="flex flex-row space-x-8">
+                <li class="flex flex-col mb-2 mt-2">
+                    <img src="aboutuslogo.png" alt="logo1" class="w-9 h-9 ml-4 mr-[30px]" id="aboutus">
+                    <label for="aboutus" class="input-list">About Us</label>
+                </li>
+                <li class="flex flex-col mb-2 mt-2">
+                    <img src="contact_logo.png" alt="logo2" class="w-9 h-9 ml-3 mr-[30px]" id="contact">
+                    <label for="contact" class="input-list">Contact</label>
+                </li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    
+    <!--hindi heading-->
+    <div class="h-[80px] bg-[#f6e9de] pt-[10px] ">
+        <img src="hindiline.jpg" class=" justify-center p-1 w-[800px] ml-[20%]">
+
+    </div>
+
+    <!-- 3 columns, questions in the middle section-->
+    <div class=" gap-0 mt-[50px] flex flex-row overflow-x-hidden">
+
+         <!--1st column-->
+        <div class=" w-[350px] ">
+            <!--blank-->
+        </div>
+
+        <!--2nd column-->
+        <div class=" w-[650px] ml-[100px]">
+            <div class="border-double border-orange-600 border-4 w-[650px] h-[250px] mt-[40px] rounded-[40px] bg-white">
+                <p class="text-left ml-[10px] text-2xl font-mono mt-[15px] t">Where did you file the complaint?</p><br>
+                <div class="text-left ml-[20px]">
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="Local Police Station">
+                <label for="checkbox1" class="input-list">Local Police Station</label><br>
+              
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="Cyber Police Station">
+                <label for="checkbox2" class="input-list">Cyber Police Station</label><br>
+              
+                <input type="checkbox" id="checkbox3" name="checkbox3" value="Online Complaint on Cyber Crime Portal">
+                <label for="checkbox3" class="input-list">Online Complaint on Cyber Crime Portal</label><br>
+              
+                <input type="checkbox" id="checkbox4" name="checkbox4" value="Dialed 100">
+                <label for="checkbox4" class="input-list">Dialed 100</label><br>
+              
+                <input type="checkbox" id="checkbox5" name="checkbox5" value="Dialed 155620 or 1930">
+                <label for="checkbox5" class="input-list">Dialed 155620 or 1930</label><br>
+              
+                <input type="checkbox" id="checkbox6" name="checkbox6" value="other">
+                <label for="checkbox6" class="input-list">Other</label>              
+                
+                </div>
+              </div>
+
+              <div class="border-double border-orange-600 border-4 w-[650px] h-[160px] mt-[40px] rounded-[40px] bg-white" >
+                <p class="text-left ml-[10px] text-2xl font-mono mt-[15px] t">Was your complaint resolved?
+                <div class="flex flex-row">
+                    <input type="radio" class="float-left ml-[10px] ">
+                    <label class="input-list"> Yes</label>
+                </div>
+                <div class="flex flex-row">
+                    <input type="radio" class="float-left ml-[10px]">
+                    <label class="input-list"> No</label>
+                </div>
+                <div class="flex flex-row">
+                    <input type="radio" class="float-left ml-[10px]">
+                    <label class="input-list"> Under Investigation</label>
+                </div>
+                    
+                
+            </div>
+
+            <div class="border-double border-orange-600 border-4 w-[650px] h-[400px] mt-[100px] rounded-[40px] bg-white" >
+                <p class="text-left ml-[10px] text-2xl font-mono mt-[15px] ">What is the status of Complaint
+                </p><br>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list ">It was resolved and criminal was arrested but deducted money was not returned</label>
+                </div>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list">It was resolved and criminal was arrested and deducted money was also returned
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list ">It was resolved and criminal was not arrested and deducted money was returned</label>
+                </div>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list ">Complaint was closed without any investigation</label>
+                </div>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list ">It is still pending (Under Investigation)</label>
+                </div>
+                <div class="flex flex-row mb-[15px]">
+                    <input type="radio" class="float-left ml-[10px]" name="radio2">
+                    <label class="input-list ">Other</label>
+                </div>
+            </div>
+
+            <button class="w-[300px] h-[100px] rounded-[100px] bg-[#E17537] text-white text-2xl font-bold  mt-[100px]  hover:scale-110  duration-100 delay-75 ease-in-out animate-bounce ml-[140px]"  
+                    onclick="nextpage1()">
+                        Next Page
+            </button>
+       </div>
+
+        <!--3rd column-->
+        <div class=" w-[420px]">
+            <!--blank-->
+                
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>
